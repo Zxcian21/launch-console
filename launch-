@@ -1,0 +1,23 @@
+name = input("what is your name")
+
+print(f"Welcome to {name}'s Launch Console.")
+
+
+running = True
+while running:
+    print("1.) About you")
+    print("2.) Goals")
+    print("1.) Exit")
+    choice = input(" Choose your opition: ")
+    if choice == "1":
+        print("My name is Omar and Im a senior in high school")
+    elif choice == "2":
+        print("Going to college")
+    elif choice == "3":
+        print("Goodbye!")
+        running = False
+    else:
+        print("Please pick 1, 2, or 3.")
+
+
+
